@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignIn">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="100dp"
+        android:background="#E3D0D0"
+        android:password="false"
+        android:text="@string/signIn2"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        tools:ignore="Deprecated,TextViewEdits" />
+
+    <EditText
+        android:id="@+id/unique"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="100dp"
+        android:drawableStart="@drawable/baseline_person_2_24"
+        android:hint="@string/enter_unique_id"
+        android:importantForAutofill="no"
+        android:textColorHint="#A1887F"
+        android:textSize="30sp"
+        tools:ignore="TextFields,VisualLintTextFieldSize" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="80dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#5E35B1"
+        android:text="@string/sign_in"
+        android:textColor="#F6EEEE"
+        android:textSize="25sp"
+        tools:ignore="VisualLintButtonSize,DuplicateSpeakableTextCheck" />
+
+
+</LinearLayout>

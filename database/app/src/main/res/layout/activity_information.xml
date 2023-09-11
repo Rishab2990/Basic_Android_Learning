@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Information">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:layout_marginTop="20dp"
+        android:textSize="40sp"
+       />
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="80dp"
+        android:hint="Name"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:background="#ECD0D0"
+        />
+
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="20sp"
+        android:hint="Mail"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:background="#ECD0D0"/>
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="20sp"
+        android:hint="Phone"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:background="#ECD0D0"/>
+
+    <TextView
+        android:id="@+id/unique"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="20sp"
+        android:hint="Unique Id"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:background="#ECD0D0"/>
+</LinearLayout>
