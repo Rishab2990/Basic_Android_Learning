@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="10sp"
+    app:cardCornerRadius="30sp"
+    android:layout_margin="20dp"
+    android:id="@+id/cardItem">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/headingImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img1"
+            app:shapeAppearanceOverlay="@style/SoftCorner" />
+
+        <TextView
+            android:id="@+id/headingTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="U.K. Foreign Secretary James Cleverly raises issue of BBC  tax searches with EAM Jaishankar"
+
+            android:textSize="20sp"/>
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
+
